@@ -1,0 +1,33 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.db
+.env
+CODE_WALKTHROUGH.md
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Private/local documentation
+CODE_WALKTHROUGH.md
+
+# Generated files
+*.log
+.DS_Store
+Thumbs.db
