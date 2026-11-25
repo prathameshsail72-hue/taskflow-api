@@ -248,6 +248,8 @@ docker run -p 8000:8000 -v taskflow-data:/app/data taskflow-api
 ```
  
 The container runs as a non-root user (`taskflow`). The SQLite database is stored in `/app/data/taskflow.db` inside the container, persisted via the named volume.
+
+Note briefly that a Dockerfile is provided as a starting configuration but has not been locally built or runtime-tested since Docker is not installed in my local development environment
  
 ---
  
